@@ -1,0 +1,9 @@
+file prompt quiet
+do mkdir flash:guest-share
+!
+kron occurrence reload in 1 oneshot
+policy-list reload
+kron policy-list reload
+cli reload
+!
+end
