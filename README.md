@@ -11,10 +11,10 @@ https://community.cisco.com/t5/networking-documents/automated-workaround-for-csc
 
 
 
-# Router-config
+# Router-confg
 In lab testing, we were able to successfully create the guest-share directory, and automatically reboot unconfigured cat9k switches with the following router-confg file that is loaded automatically by the device:
 
-router-config:
+router-confg:
 
 ```
 file prompt quiet
